@@ -1,6 +1,6 @@
 window.onload = function() { init() };
 
-  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/19Gc0twWUwGkE4g0oyRqKHNPuGIWKw1taBwpP4wz4lVI/pubhtml';
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/19Gc0twWUwGkE4g0oyRqKHNPuGIWKw1taBwpP4wz4lVI/pubhtml?gid=35738440&single=true';
 
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
@@ -47,6 +47,7 @@ document.getElementById('insert').innerHTML = attendanceNames;
 
 //innerHTML the variable
 
+//this is a test
   
 
 
